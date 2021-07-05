@@ -1,0 +1,60 @@
+@media (max-width: 1170px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 1000px){
+    html{
+        font-size: 70%;
+    }
+    .tbone{
+        top: 15%;
+    }
+}
+
+@media (max-width: 850px){
+    html{
+        font-size: 65%;
+    }
+    .tbone{
+        top: 10%;
+    }
+}
+
+@media (max-width: 650px){
+    html{
+        font-size: 58%;
+    }
+    
+}
+
+@media (max-width: 600px){
+    html{
+        font-size: 49%;
+    }
+}
+
+@media (max-width: 590px){
+    html{
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 550px){
+    html{
+        font-size: 35%;
+    }
+    .tbone{
+        top: 15%;
+    }
+}
+
+@media (max-width: 500px){
+    html{
+        font-size: 30%;
+    }
+    .tbone{
+        top: 10%;
+    }
+}
