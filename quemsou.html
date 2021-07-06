@@ -8,44 +8,132 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-    <title>Hello, world!</title>
+
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick.css">
+     <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quemsoustyle.css">
+    <link rel="stylesheet" href="query.css">
+    <style>
+    .navbar{
+    background-color: #212529;
+    }
+    </style>
+    <title>Quem sou</title>
   </head>
   <body>
+      
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+                <a class="navbar-brand text-light tituloestilizado" href="home.html">Portifolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                    aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light hover" href="home.html">Página Principal <span class="sr-only">(página
+                                    atual)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light hover" href="quemsou.html">Quem sou</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light hover" href="downloads.html">Downloads</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-            <a class="navbar-brand text-light tituloestilizado" href="home.html">Portifolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-light hover" href="home.html">Página Principal <span class="sr-only">(página
-                                atual)</span></a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link text-light hover" href="quemsou.html">Quem sou</a>
-                    </li>
+    <div class="container">
+        <section>
+            <img src="assets/web-development-image.jpg" id="banner" alt="">
+            <div class="container-slide">
+                <div class="carousel-caption tbone">
+                    <h2>Desenvolvimento de sites com as 3 principais tecnologias e frameworks</h2>
+                    <p>O maior foco em front-end possível</p>
+                </div>
+            </div>
+        </section>
 
-                    <li class="nav-item">
-                        <a class="nav-link text-light hover" href="downloads.html">Downloads <img
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABXElEQVRIie2WvS4EURSAP0vWA0g0Cq0EiWRXFHgBiUcQ0SkUXkKLhHgC3kGzEY2fICQU3kBsJ3ZV+BQzm6wJa85mNlHsV03uzDnfPefOzb3Qp89/Q51RD9RH9U1tqA/qrjrVC+GQuqN++Dvv6r5aLkpaVo87CLPUCpGrWwFpi72oZFk9MVm7hnqatjDKuzrZy8o6sZ1HulSwVPU+6yn94N7M1RaYBxZyfjv+6xuTbbJmsif/pC0uD59p7sGsdES9ifQuKG5xpY60V3odTNCt2NQ1VAJWgUrOtSqCCrBSAtYDQQvALFBvG6sDVWAxkGcdtRloUwXAtkOg9axWA3maqK+BgLo6nZ2+OqE+BfK8oF4GAlSfzVScjkU4LwGHgbUBGAVqJq2tArV0LMLRgDoMXAAzweBuuQPmAFDH1Ntgu7rhVh37Ng2TQ35DPTf2w/3Fq3qW5i7mRtKnTye+AEEt+RpNv8zWAAAAAElFTkSuQmCC"
-                                id="altura"></a>
-                    </li>
-                </ul>
+        <main>
 
+            <div class="row featurette">
+                <div class="col-md-9 order-md-2">
+                    <h2 class="text-muted">Olá! meu nome é Angelo Augusto Alves Gatz.
+                        <span class="font">
+                            <p>
+                                tenho 23 anos,
+                                curso Analise e Desenvolvimento de Sistemas,
+                                e estudo Desenvolvimento front-end.
+                            </p>
+                        </span>
+                    </h2>
+                </div>
+                
+                <div class="col-lg-5 order-md-1">
+                    <img src="assets/minha-foto-img.jpeg" class="rounded float-left rounded-circle" width="350"
+                    height="350" id="hover" alt="Foto">
+                </div>
+                
+                
             </div>
 
-        </nav>
+        </main>
 
-    </header>
+        <aside>
+            <p>
+                Procurando uma oportunidade para iniciar na profissão de desenvolvedor,
+                fiz este site para demonstrar minhas habilidades e competências,
+                no que tange a modelagem e estilização de sites.
+            </p>
+            <p>
+                Desde pequeno ja tenho contato com o mundo da programação,
+                tanto front-end quando back-end pois meu ja falecido pai,
+                trabalhava com hospedagem de sites e também como full-stack.
+                No ultimo 1 ano e meio, venho me inserindo no ramo e me encontrei
+                no desenvolvimento front-end.
+            </p>
+        </aside>
+
+        <footer class="stilogaleria">
+            
+                <div class="galeria">
+                    <abbr title="JavaScript"><a href="#"><img src="https://img.icons8.com/color/144/000000/javascript--v1.png" id="borda"/></a></abbr>
+                    <abbr title="HTML5"><a href="#"><img src="https://img.icons8.com/color/144/000000/html-5--v1.png"/></a></abbr>
+                    <abbr title="CSS3"><a href="#"><img src="https://img.icons8.com/color/144/000000/css3.png"/></a></abbr>
+                    <abbr title="Bootstrap5"><a href="#"><img src="https://img.icons8.com/color/144/000000/bootstrap.png"/></a></abbr>
+                    <abbr title="Jquery"><a href="#"><img src="https://img.icons8.com/ios-filled/150/000000/jquery.png"/></a></abbr>
+                    <abbr title="Linguagem C"><a href="#"><img src="https://img.icons8.com/color/144/000000/c-programming.png"/></a></abbr>
+                    <abbr title="Git">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="144" height="144"
+                                viewBox="0 0 172 172"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#34495e"><path d="M151.21667,79.19167l-58.40833,-58.40833c-1.79167,-1.79167 -4.3,-2.86667 -6.80833,-2.86667v0c-2.50833,0 -5.01667,1.075 -6.80833,2.86667l-12.54167,12.54167l14.69167,14.69167c1.43333,-0.71667 2.86667,-1.075 4.65833,-1.075c6.09167,0 10.75,4.65833 10.75,10.75c0,1.79167 -0.35833,3.225 -1.075,4.65833l14.33333,14.33333c1.43333,-0.71667 2.86667,-1.075 4.65833,-1.075c6.09167,0 10.75,4.65833 10.75,10.75c0,6.09167 -4.65833,10.75 -10.75,10.75c-6.09167,0 -10.75,-4.65833 -10.75,-10.75c0,-1.79167 0.35833,-3.225 1.075,-4.65833l-14.33333,-14.33333c-0.35833,0 -0.71667,0.35833 -1.075,0.35833v37.26667c4.3,1.43333 7.16667,5.375 7.16667,10.03333c0,6.09167 -4.65833,10.75 -10.75,10.75c-6.09167,0 -10.75,-4.65833 -10.75,-10.75c0,-4.65833 2.86667,-8.6 7.16667,-10.03333v-37.625c-4.3,-1.43333 -7.16667,-5.375 -7.16667,-10.03333c0,-1.79167 0.35833,-3.225 1.075,-4.65833l-14.69167,-14.69167l-40.85,41.20833c-1.79167,1.79167 -2.86667,4.3 -2.86667,6.80833c0,2.50833 1.075,5.01667 2.86667,6.80833l58.40833,58.40833v0c1.79167,1.79167 4.3,2.86667 6.80833,2.86667c2.50833,0 5.01667,-1.075 6.80833,-2.86667l58.40833,-58.40833c1.79167,-1.79167 2.86667,-4.3 2.86667,-6.80833c0,-2.50833 -1.075,-5.01667 -2.86667,-6.80833z"></path></g></g></svg>
+                        </a>
+                    </abbr>
+                        <abbr title="GitHub">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="150" height="150"
+                                viewBox="0 0 172 172"
+                                style=" fill:#000000;"><g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path><g fill="#000000" fill-rule="evenodd"><path d="M86,21.5c-35.63037,0 -64.5,28.86963 -64.5,64.5c0,28.4917 18.47656,52.6792 44.11279,61.20361c3.2334,0.58789 4.40918,-1.38574 4.40918,-3.10742c0,-1.53271 -0.06299,-5.58496 -0.08398,-10.95996c-17.95166,3.88428 -21.73096,-8.65039 -21.73096,-8.65039c-2.93945,-7.45361 -7.15967,-9.44824 -7.15967,-9.44824c-5.85791,-3.98926 0.44092,-3.90528 0.44092,-3.90528c6.4668,0.46192 9.86817,6.63477 9.86817,6.63477c5.75293,9.86817 15.09619,7.0127 18.77051,5.375c0.58789,-4.17822 2.26758,-7.01269 4.09424,-8.62939c-14.31934,-1.6167 -29.37354,-7.15967 -29.37354,-31.87207c0,-7.05469 2.51953,-12.80761 6.63477,-17.32178c-0.65088,-1.6167 -2.87646,-8.18848 0.62989,-17.06982c0,0 5.41699,-1.72168 17.7417,6.61377c5.14404,-1.42773 10.66602,-2.1416 16.14599,-2.16259c5.47998,0.02099 11.00195,0.73486 16.14599,2.16259c12.32471,-8.33545 17.7207,-6.61377 17.7207,-6.61377c3.52734,8.88134 1.32276,15.45313 0.65088,17.06982c4.13623,4.51416 6.61377,10.26709 6.61377,17.32178c0,24.77539 -15.0752,30.21338 -29.43653,31.83008c2.30957,1.97364 4.36719,5.9209 4.36719,11.92578c0,8.6294 -0.06298,15.5791 -0.06298,17.69971c0,1.72168 1.15478,3.7373 4.43017,3.10742c25.61523,-8.54541 44.0708,-32.71192 44.0708,-61.20361c0,-35.63037 -28.86963,-64.5 -64.5,-64.5z"></path></g></g></svg>
+                            </a>
+                        </abbr>
+                </div>
+                
+            
+        </footer>
+    </div>
+    <hr class="featurette-devider">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -56,6 +144,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <script src="lib/slick-1.8.1/slick/slick.js"></script> 
+
+    <script>
+        $(".galeria").slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay:true,
+            autoplaySpeed: 1000,
+        });
+    </script>
+    
   </body>
 </html>
 
