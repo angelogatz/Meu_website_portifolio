@@ -37,6 +37,10 @@ body{
     background-color: #212529;
 }
 
+.navbar{
+    background-color: #212529a1;
+}
+
 .carousel-inner,.carousel-item{
     height: 90vh;
 
@@ -123,6 +127,7 @@ body{
     text-align: left;
     margin-top: 160px;
     letter-spacing: .05em;
+    
 }
 
 
@@ -131,6 +136,7 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 50px;
     text-align: left;
+    
 }
 
 .col-md-7 p{
@@ -171,14 +177,6 @@ footer{
     margin-top: 50px;
 }
 
-.envelope{
-    background-color: rgb(255, 255, 255);
-    height: 1630px;
-    width: 1270px;
-    margin-top: 150px;
-    border-radius: 25px;
-    box-shadow: 3px 3px 5px rgba(77, 77, 77, 0.808);
-}
 
 #ajustagem{
     margin-top: -100px;
@@ -193,7 +191,9 @@ footer{
 }
 
 .alongar{
-    width: 1220px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
     border-radius: 20px;
     margin-top: 40px;
 }
@@ -220,5 +220,50 @@ footer{
     text-decoration-line: underline;
 }
 
+.col-sm{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    max-width: 800px;
+    max-height: 1000px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 13px #21252941;
+}
 
+.col-sm2{
+    background-color: #ffffff;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 13px #21252941;
+    margin-top: 20px;
+}
+
+
+.cabecalho{
+    background-color: #212529;
+    width: 100%;
+    min-width: 100px;
+    height: 100%;
+    margin: auto;
+    min-height: 60px;
+    max-width: 800px;
+    margin-top: 140px;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    box-shadow: 3px 3px 13px #2125293f;
+}
+
+.cabecalho h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3em;
+}
+
+.card-body{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
