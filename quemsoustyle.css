@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +7,7 @@
     outline: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
 
 html, body{
     margin: 0;
@@ -18,6 +19,120 @@ html, body{
 
 body{
     background-color: #2125291c;
+}
+
+
+.white{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.white:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-family: 'Otomanopee One', sans-serif;
+    transition: 0.3s;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #212529;
+    height: 8vh;
+}
+
+.navmain{
+    background: url();
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+@media (max-width: 999px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 100vw;
+        height: 92vh;
+        background: #212529ad;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        z-index:1
+    }
+    .nav-list li{
+        margin-left: 0;
+        opacity: 0;
+        font-size: 15px;
+    }
+    .mobile-menu{
+        display: block;
+    }
+}
+
+.nav-list.active{
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1{
+    transform: rotate(-45deg) translate(-8px, 8px); 
+}
+
+.mobile-menu.active .line2{
+    opacity: 0;
+}
+
+.mobile-menu.active .line3{
+    transform: rotate(45deg) translate(-5px, -7px); 
 }
 
 section{
@@ -73,7 +188,7 @@ footer{
 }
 
 .container-fluid{
-    max-width: 1200px;
+    max-width: 990px;
     background-color: white;
     display: grid;
     grid-template-columns: 2.5fr 1.5fr;
@@ -104,7 +219,7 @@ footer{
 }
 
 
-h2:hover{
+h2.font2:hover{
     animation: animate .5s;
     cursor: pointer;
 }
@@ -123,4 +238,8 @@ h2:hover{
 
 .tbone{
     top: 30%;
+}
+
+.carousel-caption{
+    z-index:0
 }

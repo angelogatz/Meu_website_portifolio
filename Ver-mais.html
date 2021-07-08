@@ -19,7 +19,11 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="vermais.css">
   <title>Níveis</title>
-
+  <style>
+    .navbar{
+    background-color: #212529;
+    }
+    </style>
 </head>
 
 <body>
@@ -27,45 +31,43 @@
 
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
-
-      <a class="navbar-brand text-light tituloestilizado" href="home.html">Portifolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-light hover" href="home.html">Página Principal <span class="sr-only">(página
-                atual)</span></a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link text-light hover" href="quemsou.html">Quem sou</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link text-light hover" href="downloads.html">Downloads</a>
+    <nav>
+        <a class="logo" href="home.html">Portifolio</a>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a class="white" href="home.html">Início</a></li>
+            <li><a class="white" href="quemsou.html">Quem Sou</a></li>
+            <li class="nav-item dropdown">
+              <a class=" dropdown-toggle white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Downloads
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="downloads/CovidCad2020.zip" download="CovidCad2020.zip" type="application/zip">Projeto em C</a>
+              </div>
           </li>
         </ul>
-
-      </div>
-
     </nav>
+</header>
 
-  </header>
+<main class="navmain">
+</main>
 
-  <div class="container">
+  <div class="container-fluid">
     <section>
-
+        <h2>Nìveis de conhecimento</h2>
     </section>
 
     <main class="gridsize">
-      <h2>Fron-end</h2>
-      <div>
+      <div id="disp2">
+       <h2>Fron-end</h2>
+      
         <h3>HTML5</h3>
         <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
         </div>
         
         <h3>CSS3</h3>
@@ -87,44 +89,48 @@
         <div class="progress">
           <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
         </div>
+        <hr>
       </div>
-    </main>
-
-    <main class="gridsizeitem">
-      <h2>Back-end</h2>
-      <div>
-        <h3>C, C#</h3>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 15%">15%</div>
+    
+      
+    
+      <div id="disp1">
+        <h2>Back-end</h2>
+        <div>
+          <h3>C, C#</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 15%">15%</div>
+          </div>
         </div>
+         <hr>
+        <h2>English Knowledges</h2>
+        <h3>Reading</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+          </div>
+        
+          <h3>Writing</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+          </div>
+        
+          <h3>Listening</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+          </div>
+        
+          <h3>Speaking</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%">35%</div>
       </div>
-       <hr>
-      <h2>English Knowledges</h2>
-
-      <h3>Reading</h3>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
-        </div>
-        
-        <h3>Writing</h3>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
-        </div>
-        
-        <h3>Listening</h3>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
-        </div>
-        
-        <h3>Speaking</h3>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%">35%</div>
     </main>
 
     <footer>
-      
+      <p>© Meu portifólio 2021. Angelo Augusto Alves Gatz</p>
     </footer>
+    
   </div>
+  
 
   
 
@@ -140,15 +146,8 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
   <script src="lib/slick-1.8.1/slick/slick.js"></script>
+  <script src="mobile-navbar.js"></script>
 
-  <script>
-    $('.gridsl').slick({
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-  });
-  </script>
   
 
 </body>

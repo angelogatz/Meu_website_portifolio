@@ -19,51 +19,50 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="quemsoustyle.css">
     <link rel="stylesheet" href="query.css">
-    <style>
-    .navbar{
-    background-color: #212529;
-    }
-    </style>
+    
     <title>Quem sou</title>
   </head>
   <body>
       
     <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
-                <a class="navbar-brand text-light tituloestilizado" href="home.html">Portifolio</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-                    aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link text-light hover" href="home.html">Página Principal <span class="sr-only">(página
-                                    atual)</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link text-light hover" href="quemsou.html">Quem sou</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light hover" href="downloads.html">Downloads</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <nav>
+            <a class="logo" href="home.html">Portifolio</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a class="white" href="home.html">Início</a></li>
+                <li><a class="white" href="quemsou.html">Quem Sou</a></li>
+                <li class="nav-item dropdown">
+                    <a class=" dropdown-toggle white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Downloads
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="downloads/CovidCad2020.zip" download="CovidCad2020.zip" type="application/zip">Projeto em C</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="container-fluid">
+    <main class="navmain">
+
+    </main>
+
+    <div class="container-fluid ">
 
         <source media="(min-width: )" srcset="" sizes="">
 
         <section>
             <img src="assets/web-development-image.jpg" id="banner" alt="">
-            <div class="container-slide">
-                <div class="carousel-caption tbone">
-                    <h2>Desenvolvimento de sites com as 3 principais tecnologias e frameworks</h2>
-                    <p>O maior foco em front-end possível</p>
-                </div>
+            
+            <div class="carousel-caption tbone">
+                <h2>Desenvolvimento de sites com as 3 principais tecnologias e frameworks</h2>
+                <p>O maior foco em front-end possível</p>
             </div>
+            
         </section>
 
         <main>
@@ -149,7 +148,7 @@
         crossorigin="anonymous"></script>
 
     <script src="lib/slick-1.8.1/slick/slick.js"></script> 
-
+    <script src="mobile-navbar.js"></script>
     <script>
         $(".galeria").slick({
             infinite: true,
@@ -209,7 +208,6 @@
         
     </script>
 
-    <script src="largura.js"></script>
     
   </body>
 </html>
