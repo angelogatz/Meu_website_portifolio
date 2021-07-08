@@ -1,5 +1,496 @@
-@media (max-width: 1170px){
-    .container{
-        font-size: 90%;
+@media (max-width: 1098px) {
+    .container-fluid{
+        display: inline;
+        
     }
+    .galeria{
+        width: 800px;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .col-md-9{
+        margin: auto;
+    }
+    body{
+        background-color: white;
+    }
+    main > img{
+        margin: auto;
+        max-height: 100px;
+        max-width: 100px;
+    }
+    aside{
+        max-width: 700px;
+        max-height: 210px;
+    }
+    .tbone{
+        top: 15%;
+    }
+    #banner{
+        height: 300px;
+    }
+}
+@media (max-width: 1024px) {
+    .container-fluid{
+        display: inline;
+        
+    }
+    .galeria{
+        width: 1000px;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .col-md-9{
+        margin: auto;
+    }
+    body{
+        background-color: white;
+    }
+    main > img{
+        margin: auto;
+        max-height: 100px;
+        max-width: 100px;
+    }
+    aside{
+        max-width: 700px;
+        max-height: 210px;
+    }
+    .tbone{
+        top: 15%;
+    }
+    #banner{
+        height: 300px;
+    }
+}
+
+@media (max-width: 1024px) and (max-height: 1366px) {
+    .container-fluid{
+        display: inline;
+        
+    }
+    .galeria{
+        width: 1000px;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .col-md-9{
+        margin: auto;
+    }
+    body{
+        background-color: white;
+    }
+    main > img{
+        margin: auto;
+        max-height: 100px;
+        max-width: 100px;
+    }
+    aside{
+        max-width: 900px;
+        max-height: 350px;
+    }
+    .fontsize{
+        font-size: 30px;
+    }
+    .tbone{
+        top: 8%;
+    }
+    #banner{
+        height: 300px;
+    }
+}
+
+
+
+@media (max-width: 960px) {
+    .container-fluid{
+        display: inline;
+        background-color: white;
+    }
+    .galeria{
+        width: 700px;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .col-md-9{
+        margin: auto;
+    }
+    aside{
+        max-width: 700px;
+        max-height: 210px;
+    }
+    .fontsize{
+        font-size: 20px;
+    }
+    .tbone{
+        top: 15%;
+    }
+    #banner{
+        height: 300px;
+    }
+}
+
+
+
+@media (max-width: 770px) {
+    .container-fluid{
+        display: inline;
+        background-color: white;
+    }
+    .galeria{
+        width: 500px;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .col-md-9{
+        margin: auto;
+    }
+    aside{
+        max-width: 700px;
+        max-height: 210px;
+    }
+    .tbone{
+        top: 5%;
+    }
+    
+}
+
+@media (max-width: 770px) {
+    .container-fluid{
+        display: inline;
+        background-color: white;
+    }
+    .galeria{
+        width: 500px;
+        margin: auto;
+        margin-top: 20%;
+    }
+    .col-md-9{
+        margin: auto;
+    }
+    aside{
+        max-width: 500px;
+        max-height: 310px;
+    }
+    #banner{
+        height: 250px;
+    }
+    .tbone{
+        top: 10%;
+    }
+    .font{
+        font-size: 30px;
+    }
+    .font2{
+        font-size: 35px;
+    }
+    
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+    .container-fluid{
+        display: inline;
+        background-color: white;
+    }
+    .galeria{
+        width: 500px;
+        margin: auto;
+        margin-top: 20%;
+    }
+    .col-md-9{
+        margin: auto;
+    }
+    aside{
+        max-width: 700px;
+        max-height: 450px;
+    }
+    #banner{
+        height: 250px;
+    }
+    .tbone{
+        top: 10%;
+    }
+    .font{
+        font-size: 30px;
+    }
+    .font2{
+        font-size: 35px;
+    }
+    
+}
+
+@media (max-width: 770px) {
+    .container-fluid{
+        display: inline;
+        background-color: white;
+    }
+    .galeria{
+        width: 500px;
+        margin: auto;
+        margin-top: 20%;
+    }
+    .col-md-9{
+        margin: auto;
+    }
+    aside{
+        max-width: 500px;
+        max-height: 310px;
+    }
+    #banner{
+        height: 250px;
+    }
+    .tbone{
+        top: 10%;
+    }
+    .font{
+        font-size: 30px;
+    }
+    .font2{
+        font-size: 35px;
+    }
+    
+}
+
+@media (max-width: 590px) {
+    .container-fluid{
+        display: inline;
+        background-color: white;
+    }
+    .galeria{
+        width: 500px;
+        margin: auto;
+        margin-top: 20%;
+    }
+
+    .tamanho{
+        width: 250px;
+        height: auto;
+        margin-left: 100px;
+    }
+    
+    .col-md-9{
+        margin: auto;
+        font-size: 1vh;
+    }
+    aside{
+        max-width: 500px;
+        max-height: 310px;
+    }
+    #banner{
+        height: 200px;
+    }
+    .tbone{
+        top: 10%;
+    }
+    .font{
+        font-size: 30px;
+    }
+    .font2{
+        font-size: 35px;
+    }
+    
+}
+
+@media (max-width: 527px) {
+    .container-fluid{
+        display: inline;
+        background-color: white;
+    }
+    .galeria{
+        width: 400px;
+        margin: auto;
+        margin-top: 30%;
+    }
+
+    .tamanho{
+        width: 250px;
+        height: auto;
+        margin-left: 100px;
+    }
+    
+    .col-md-9{
+        margin: auto;
+        font-size: 1vh;
+    }
+    aside{
+        max-width: 400px;
+        max-height: 360px;
+    }
+    #banner{
+        height: 200px;
+    }
+    .tbone{
+        top: 10%;
+    }
+    .font{
+        font-size: 30px;
+    }
+    .font2{
+        font-size: 35px;
+    }
+    
+    
+}
+
+@media (max-width: 490px) {
+    .container-fluid{
+        display: inline;
+        background-color: white;
+    }
+    .galeria{
+        width: 350px;
+        margin: auto;
+        margin-top: 30%;
+    }
+
+    .tamanho{
+        width: 250px;
+        height: auto;
+        margin-left: 100px;
+    }
+    
+    .col-md-9{
+        margin: auto;
+        font-size: 1vh;
+    }
+    aside{
+        margin-top: -15%;
+        max-width: 350px;
+        max-height: 460px;
+    }
+    #banner{
+        height: 200px;
+    }
+    .tbone{
+        top: 10%;
+    }
+    .font{
+        font-size: 25px;
+    }
+    .font2{
+        font-size: 30px;
+    }
+    
+    
+}
+
+@media (max-width: 440px) {
+    .container-fluid{
+        display: inline;
+        background-color: white;
+    }
+    .galeria{
+        width: 250px;
+        margin: auto;
+        margin-top: 30%;
+    }
+
+    .tamanho{
+        width: 50%;
+        height: auto;
+        margin-left: 100px;
+    }
+    .col-md-9{
+        margin: auto;
+        width: 300px;
+    }
+    aside{
+        max-width: 300px;
+        max-height: 520px;
+    }
+    #banner{
+        height: 160px;
+    }
+    .tbone{
+        top: 11%;
+    }
+    .font{
+        font-size: 20px;
+    }
+    .font2{
+        font-size: 25px;
+    }
+
+    @media (max-width: 400px) {
+        .container-fluid{
+            display: inline;
+            background-color: white;
+        }
+        .galeria{
+            width: 250px;
+            margin: auto;
+            margin-top: 30%;
+        }
+    
+        .tamanho{
+            width: 50%;
+            
+            height: auto;
+            margin-left: 100px;
+        }
+        .col-md-9{
+            margin: auto;
+            width: 300px;
+        }
+        aside{
+            max-width: 300px;
+            max-height: 520px;
+        }
+        #banner{
+            height: 160px;
+        }
+        .tbone{
+            top: 11%;
+        }
+        .font{
+            font-size: 20px;
+        }
+        .font2{
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 394px) {
+        .container-fluid{
+            display: inline;
+            background-color: white;
+        }
+        .galeria{
+            width: 250px;
+            margin: auto;
+            margin-top: 30%;
+        }
+    
+        .tamanho{
+            width: 50%;
+            
+            height: auto;
+            margin-left: 100px;
+        }
+        .col-md-9{
+            margin: auto;
+            width: 300px;
+        }
+        aside{
+            max-width: 300px;
+            max-height: 520px;
+        }
+        #banner{
+            height: 160px;
+        }
+        .tbone{
+            top: 11%;
+        }
+        .fontsize{
+            font-size: 20px;
+        }
+        .font{
+            font-size: 20px;
+        }
+        .font2{
+            font-size: 25px;
+        }
+    }
+    
+    
+    
 }

@@ -28,8 +28,8 @@ section{
 }
 
 #banner{
-    width: 101.78%;
-    margin-left: -11px;
+    max-width: 99.9999999%;
+    
     height: 400px;
     
 }
@@ -37,7 +37,7 @@ section{
 main{
     
     grid-area: m;
-    margin: auto;
+    
     
     
 }
@@ -72,11 +72,12 @@ footer{
    
 }
 
-.container{
+.container-fluid{
+    max-width: 1200px;
     background-color: white;
     display: grid;
-    grid-template-columns: 2.5fr 1fr;
-    grid-template-rows: 20vh 90vh 30vh;
+    grid-template-columns: 2.5fr 1.5fr;
+    grid-template-rows: 20vh 130vh 30vh;
     grid-template-areas: "s s"
                           "m a"
                           "f f";
@@ -102,12 +103,6 @@ footer{
     
 }
 
-#hover:hover{
-    width: 355px;
-    height: 355px;
-    cursor: pointer;
-    transition: .1s ease-in;
-}
 
 h2:hover{
     animation: animate .5s;

@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+
+section{
+    background-color: teal;
+    grid-area: h;
+}
+
+main.gridsize{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 100%;
+    max-width: 500px;
+    grid-area: m;
+}
+
+main.gridsizeitem{
+    margin-top: 30px;
+    margin-left: 190px;
+    width: 100%;
+    max-width: 500px;
+    grid-area: a;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: yellowgreen;
+    grid-area: f;
+}
+
+.container{
+    max-width: 1200px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 15vh 70vh 25vh;
+    grid-template-areas: "h h"
+                          "m a"
+                          "f f";
+    row-gap: 10px;
+    margin-top: 8%;
+    box-shadow: 3px 3px 8px #21252936;
+}
+
+.progresbar{
+    margin-top: -4%;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.progress{
+    width: 100%;
+    max-width: 500px;
+
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}

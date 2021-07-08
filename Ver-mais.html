@@ -9,21 +9,20 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="vermais.css">
   <title>Níveis</title>
-<style>
-  .navbar ul{
-    
-  }
-</style>
+
 </head>
 
-<body class="colorcng">
+<body>
 
 
 
@@ -46,9 +45,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-light hover" href="downloads.html">Downloads <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABXElEQVRIie2WvS4EURSAP0vWA0g0Cq0EiWRXFHgBiUcQ0SkUXkKLhHgC3kGzEY2fICQU3kBsJ3ZV+BQzm6wJa85mNlHsV03uzDnfPefOzb3Qp89/Q51RD9RH9U1tqA/qrjrVC+GQuqN++Dvv6r5aLkpaVo87CLPUCpGrWwFpi72oZFk9MVm7hnqatjDKuzrZy8o6sZ1HulSwVPU+6yn94N7M1RaYBxZyfjv+6xuTbbJmsif/pC0uD59p7sGsdES9ifQuKG5xpY60V3odTNCt2NQ1VAJWgUrOtSqCCrBSAtYDQQvALFBvG6sDVWAxkGcdtRloUwXAtkOg9axWA3maqK+BgLo6nZ2+OqE+BfK8oF4GAlSfzVScjkU4LwGHgbUBGAVqJq2tArV0LMLRgDoMXAAzweBuuQPmAFDH1Ntgu7rhVh37Ng2TQ35DPTf2w/3Fq3qW5i7mRtKnTye+AEEt+RpNv8zWAAAAAElFTkSuQmCC"
-                id="altura"></a>
+            <a class="nav-link text-light hover" href="downloads.html">Downloads</a>
           </li>
         </ul>
 
@@ -58,129 +55,78 @@
 
   </header>
 
-  <main>
+  <div class="container">
+    <section>
 
+    </section>
 
-    <div class="cabecalho">
-      <h2>
-        Niveis de Competência
-      </h2>
-    </div>
-
-    <div class="col-sm">
-      <div class="col-md-7">
-        <p>
-          <a class="btn btn-dark " data-toggle="collapse" href="#multiCollapseExample1" role="button"
-            aria-expanded="false" aria-controls="multiCollapseExample1">Front-end</a>
-        </p>
-        <div class="row">
-          <div class="col">
-            <div class="collapse show multi-collapse" id="multiCollapseExample1">
-              <div class="card card-body bg-secondary alongar">
-                <p class="text-light">HTML</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
-                </div>
-                <hr class="featurette-divider porcentagem">
-                <p class="text-light">CSS</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
-                </div>
-                <hr class="featurette-divider porcentagem">
-                <p class="text-light">JavaScript</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">30%</div>
-                </div>
-                <hr class="featurette-divider porcentagem">
-                <p class="text-light">Bootstrap</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <p>
-          <a class="btn btn-dark" data-toggle="collapse" href="#multiCollapseExample2" role="button"
-            aria-expanded="false" aria-controls="multiCollapseExample2">Back-end</a>
-        </p>
-        <div class="row">
-          <div class="col">
-            <div class="collapse show multi-collapse" id="multiCollapseExample2">
-              <div class="card card-body bg-secondary alongar">
-                <p class="text-light">C, C#</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">20%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p>
-          <a class="btn btn-dark" data-toggle="collapse" href="#multiCollapseExample3" role="button"
-            aria-expanded="false" aria-controls="multiCollapseExample3">Design</a>
-        </p>
-        <div class="row">
-          <div class="col">
-            <div class="collapse show multi-collapse" id="multiCollapseExample3">
-              <div class="card card-body bg-secondary alongar">
-                <p class="text-light">GIMP</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">20%</div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <main class="gridsize">
+      <h2>Fron-end</h2>
+      <div>
+        <h3>HTML5</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
         </div>
         
+        <h3>CSS3</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+        </div>
+        
+        <h3>JavaScript</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
+        </div>
+        
+        <h3>Bootstrap5</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+        </div>
+        
+        <h3>Jquery</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
+        </div>
       </div>
-    </div>
+    </main>
+
+    <main class="gridsizeitem">
+      <h2>Back-end</h2>
+      <div>
+        <h3>C, C#</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 15%">15%</div>
+        </div>
+      </div>
+       <hr>
+      <h2>English Knowledges</h2>
+
+      <h3>Reading</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+        </div>
+        
+        <h3>Writing</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+        </div>
+        
+        <h3>Listening</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+        </div>
+        
+        <h3>Speaking</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%">35%</div>
+    </main>
+
+    <footer>
+      
+    </footer>
+  </div>
 
   
-
-    <div class="col-sm2">
-      <div class="col-md-7">
-        <div class="row">
-        
-            <div class="collapse show multi-collapse" id="multiCollapseExample4">
-              <div class="card card-body bg-secondary alongar">
-                <p class="text-light">Reading</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
-                </div>
-                <hr class="featurette-divider porcentagem">
-                <p class="text-light">Listening</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
-                </div>
-                <hr class="featurette-divider porcentagem">
-                <p class="text-light">Writing</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">30%</div>
-                </div>
-                <hr class="featurette-divider porcentagem">
-                <p class="text-light">Speaking</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%</div>
-                </div>
-                
-              </div>
-            </div>
-          
-        </div>
-        
-  </main>
 
 
 
@@ -193,6 +139,18 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <script src="lib/slick-1.8.1/slick/slick.js"></script>
+
+  <script>
+    $('.gridsl').slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+  });
+  </script>
+  
+
 </body>
 
 </html>

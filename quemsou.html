@@ -52,7 +52,10 @@
             </nav>
         </header>
 
-    <div class="container">
+    <div class="container-fluid">
+
+        <source media="(min-width: )" srcset="" sizes="">
+
         <section>
             <img src="assets/web-development-image.jpg" id="banner" alt="">
             <div class="container-slide">
@@ -67,10 +70,10 @@
 
             <div class="row featurette">
                 <div class="col-md-9 order-md-2">
-                    <h2 class="text-muted">Olá! meu nome é Angelo Augusto Alves Gatz.
+                    <h2 class="text-muted font2">Olá! meu nome é Angelo Augusto Alves Gatz.
                         <span class="font">
                             <p>
-                                tenho 23 anos,
+                                tenho 24 anos,
                                 curso Analise e Desenvolvimento de Sistemas,
                                 e estudo Desenvolvimento front-end.
                             </p>
@@ -79,7 +82,7 @@
                 </div>
                 
                 <div class="col-lg-5 order-md-1">
-                    <img src="assets/minha-foto-img.jpeg" class="rounded float-left rounded-circle" width="350"
+                    <img src="assets/minha-foto-img.jpeg" class="rounded float-left rounded-circle tamanho" width="350"
                     height="350" id="hover" alt="Foto">
                 </div>
                 
@@ -89,12 +92,12 @@
         </main>
 
         <aside>
-            <p>
+            <p class="fontsize">
                 Procurando uma oportunidade para iniciar na profissão de desenvolvedor,
                 fiz este site para demonstrar minhas habilidades e competências,
                 no que tange a modelagem e estilização de sites.
             </p>
-            <p>
+            <p class="fontsize">
                 Desde pequeno ja tenho contato com o mundo da programação,
                 tanto front-end quando back-end pois meu ja falecido pai,
                 trabalhava com hospedagem de sites e também como full-stack.
@@ -149,12 +152,64 @@
 
     <script>
         $(".galeria").slick({
-            slidesToShow: 5,
-            slidesToScroll: 1,
+            infinite: true,
             autoplay:true,
             autoplaySpeed: 1000,
-        });
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            responsive: [
+            {
+            breakpoint: 1098,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                
+           }
+        },
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                infinite: true,
+            }
+        },
+            {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+            }
+        },
+            {
+            breakpoint: 411,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+            }    
+        },
+            {
+            breakpoint: 370,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+        },
+            
+            
+        
+            
+    }
+  ]
+}); 
+
+        
     </script>
+
+    <script src="largura.js"></script>
     
   </body>
 </html>

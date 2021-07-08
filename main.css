@@ -119,6 +119,10 @@ body{
    
 }
 
+.col-md-7{
+    margin-top: -100px;
+}
+
 
 .col-md-7 h2{
     font-family: 'Noto Sans JP', sans-serif;
@@ -157,11 +161,6 @@ footer{
     margin-bottom: 100px;
 }
 
-.porcentagem{
-
-    margin-top: 13px;
-    margin-bottom: 13px;
-}
 
 .center{
     text-align: center;
@@ -190,13 +189,7 @@ footer{
     margin-top: 150px;
 }
 
-.alongar{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    border-radius: 20px;
-    margin-top: 40px;
-}
+
 
 .espaco{
     margin-bottom: 70px;
@@ -220,50 +213,13 @@ footer{
     text-decoration-line: underline;
 }
 
-.col-sm{
-    background-color: #ffffff;
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    max-width: 800px;
-    max-height: 1000px;
-    border-radius: 0px 0px 20px 20px;
-    box-shadow: 3px 3px 13px #21252941;
-}
-
-.col-sm2{
-    background-color: #ffffff;
-    margin: auto;
-    max-width: 800px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 13px #21252941;
-    margin-top: 20px;
-}
 
 
-.cabecalho{
-    background-color: #212529;
-    width: 100%;
-    min-width: 100px;
-    height: 100%;
-    margin: auto;
-    min-height: 60px;
-    max-width: 800px;
-    margin-top: 140px;
-    color: white;
-    border-radius: 20px 20px 0px 0px;
-    text-align: center;
-    box-shadow: 3px 3px 13px #2125293f;
-}
 
-.cabecalho h2{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 3em;
-}
 
-.card-body{
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+
+
+
+
+
 
