@@ -48,11 +48,6 @@ nav{
     height: 8vh;
 }
 
-.navmain{
-    background: url("assets/background-pages-images.jpg") no-repeat center center;
-    background-size: cover;
-    height: 215vh;
-}
 
 .nav-list{
     list-style: none;
@@ -147,8 +142,9 @@ nav{
 
 
 .tbone{
-    top: 15%;
-    height: 400px;
+    top: 7%;
+    height: 100%;
+    
     z-index: 0;
 }
 

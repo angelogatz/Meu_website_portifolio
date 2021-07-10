@@ -14,55 +14,36 @@
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <title>Meu Portifólio</title>
-    <style>
-        .tituloestilizado {
-
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-            font-size: 2em;
-
-        }
-
-        .navbar-light {
-            background-color: #212529;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mediaq.css">
+    <link rel="stylesheet" href="mediaq2.css">
+    <title>Meu Portfólio</title>
+    
 </head>
 
-<body class="scroll">
+<body>
     <!---Navigation bar-->
 
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-
-            <a class="navbar-brand text-light tituloestilizado" href="home.html">Portifolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-light hover" href="home.html">Página Principal <span class="sr-only">(página
-                                atual)</span></a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link text-light hover" href="quemsou.html">Quem sou</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Downloads
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="downloads/CovidCad2020.zip" download="CovidCad2020.zip" type="application/zip">Projeto em C</a>
-                        </div>
-                    </li>
-                </ul>
-
+        <nav>
+            <a class="logo" href="home.html">Portfolio</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-
+            <ul class="nav-list">
+                <li><a class="white" href="home.html">Início</a></li>
+                <li><a class="white" href="quemsou.html">Quem Sou</a></li>
+                <li class="nav-item dropdown">
+                  <a class=" dropdown-toggle white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Downloads
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="downloads/CovidCad2020.zip" download="CovidCad2020.zip" type="application/zip">Projeto em C</a>
+                  </div>
+              </li>
+            </ul>
         </nav>
 
     </header>
@@ -95,10 +76,14 @@
         </nav>
 
 
-
+       
 
 
         <div class="container">
+
+
+            
+
             <div class="container marketing">
                 <div class="row">
                     <div class="col-lg-4">
@@ -107,7 +92,7 @@
                             preserveAspectRatio="xMisYMid slice" focusable="false" <title></title>
                         <rect width="100%" height="100%" fill="#777"></rect>
                         <h2 class="center2">Acesse meu LinkedIn</h2>
-                        <p>Procuro meu primeiro estágio para engressar na profissão.</p>
+                        <p>Procuro meu primeiro estágio para ingressar na profissão.</p>
                         <p><a class="btn btn-secondary"
                                 href="https://www.linkedin.com/in/angelo-augusto-alves-gatz-29151a200/"
                                 target="_blank">Confira</a></p>
@@ -132,7 +117,7 @@
                         <h2 class="center2">Faculdade</h2>
                         <p>Atualmente no ultimo ano, confira aqui alguns projetos de programação que realizei em
                             trabalhos ao longo do curso.</p>
-                        <p><a class="btn btn-secondary" href="confira-faculdade.html">Confira</a></p>
+                        <p><a class="btn btn-secondary" href="#">Em breve</a></p>
                     </div>
                 </div>
             </div>
@@ -204,7 +189,7 @@
                          e qualidade de exibição para dispositivos mobile
                     </span>
 
-                    <p class="lead">Paginas responsivas e de fácil compreenção em smartphones e tablets
+                    <p class="lead">Paginas responsivas e de fácil compreensão em smartphones e tablets
                     </p>
                 </div>
                 <div class="col-md-5">
@@ -253,6 +238,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+        <script src="mobile-navbar.js"></script>
     <script src="main.js"></script>
 </body>
 

@@ -29,6 +29,7 @@
     .tbone{
         top: 15%;
     }
+   
     #banner{
         height: 300px;
     }
@@ -97,8 +98,14 @@
     .tbone{
         top: 8%;
     }
+    .white{
+        font-size: 25px;
+    }
     #banner{
         height: 300px;
+        margin: auto;
+        width: 100%;
+        margin-top: -15px;
     }
 }
 
@@ -208,6 +215,9 @@
     }
     #banner{
         height: 250px;
+        margin: auto;
+        width: 100%;
+        margin-top: -15px;
     }
     .tbone{
         top: 10%;
@@ -478,7 +488,10 @@
             max-height: 520px;
         }
         #banner{
+            margin: auto;
             height: 160px;
+            width: 100%;
+            margin-top: -8px;
         }
         .tbone{
             top: 11%;

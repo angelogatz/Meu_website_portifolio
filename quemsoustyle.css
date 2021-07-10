@@ -143,8 +143,8 @@ section{
 }
 
 #banner{
-    max-width: 99.9999999%;
-    
+    max-width: 102.5%;
+    margin-left: -12px;
     height: 400px;
     
 }
@@ -236,9 +236,7 @@ h2.font2:hover{
     }
 }
 
-.tbone{
-    top: 30%;
-}
+
 
 .carousel-caption{
     z-index:0
